@@ -1,0 +1,25 @@
+concept_hockey_games
+<- sc_node_class;
+<- class;
+<- concept_football;
+=> nrel_main_idtf:
+   [игры про хоккей]
+   (* <- lang_ru;; *);
+   [games about hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Большинство хоккейных игр предлагают различные режимы, включая карьеру, командные турниры, онлайн-матчи, а также локальные матчи против друзей.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[NHL от EA Sports — наиболее известная и долгоиграющая серия хоккейных видеоигр, начиная с 1991 года.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

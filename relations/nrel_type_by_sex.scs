@@ -1,0 +1,50 @@
+nrel_type_by_sex
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+	[достижения по половому признаку*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[achievments by sex type*] (* <- lang_en;; *);
+=> nrel_first_domain: 
+   { 
+      concept_hockey
+   };
+=> nrel_second_domain: 
+   {
+        concept_women;
+        concept_men
+   };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+        	    concept_hockey;
+                concept_women;
+		      concept_men
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (достижения по половому признаку* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [достижения по половому признаку* - наиболее крупные достижения игроков в хоккее по половому признаку.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            relation
+        };;
+  *);;

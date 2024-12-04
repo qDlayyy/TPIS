@@ -1,0 +1,25 @@
+concept_international_tournaments
+<- sc_node_class;
+<- class;
+<- concept_national;
+=> nrel_main_idtf:
+   [международные турниры]
+   (* <- lang_ru;; *);
+   [international tournaments]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Кубок мира по хоккею был впервые проведен в 1996 году и представляет собой один из самых престижных турниров, в котором участвуют национальные сборные.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Международные турниры - это турниры, проводимые между странами раз в несколько лет.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

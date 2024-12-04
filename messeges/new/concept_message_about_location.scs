@@ -1,0 +1,29 @@
+concept_message_about_location
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Сообщение о локации]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [Message_about_location];
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+       [Опр. (Сообщение о локации)]
+       (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+           [Сообщение о локации - это сообщение о локации в котором проводятся игры по какому-либо виду хоккея.]
+           (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_hockey
+        };;
+    *);;
+    
+concept_intent_possible_class
+-> concept_message_about_location;;

@@ -1,0 +1,29 @@
+concept_bicycle_hockey
+<- sc_node_class;
+<- class;
+<- concept_not_standart;
+<- concept_wit_entity;
+=> nrel_classification_by_game_time: [40 минут] (* <- lang_ru;; *);
+=> nrel_type_by_place: [Арена] (* <- lang_ru;; *);
+
+=> nrel_main_idtf:
+   [хоккей на велосипедах]
+   (* <- lang_ru;; *);
+   [bicycle hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Один из наимее распространенных видов хоккея, но все же имеющий интерес среди опреденной аудитории.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[В этом виде хоккея игроки используют велосипеды, чтобы передвигаться по игровому полю. Используются специальные клюшки и мяч.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

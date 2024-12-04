@@ -1,0 +1,39 @@
+concept_field_hockey
+<- sc_node_class;
+<- class;
+<= nrel_type_by_number_of_participants: concept_hockey;
+=> nrel_classification_by_game_time:
+    ...
+		(*
+		-> rrel_example:
+			[70 минут]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_type_by_place:
+    ...
+		(*
+		-> rrel_example:
+			[Трава]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_main_idtf:
+   [хоккей на траве]
+   (* <- lang_ru;; *);
+   [grass hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Современный хоккей на траве, как мы его знаем, появился в Великобритании в XIX веке.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[В отличие от многих других видов спорта, в хоккее на траве существуют турниры, в которых могут участвовать как мужчины, так и женщины в одной команде.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

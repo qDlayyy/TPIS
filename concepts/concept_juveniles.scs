@@ -1,0 +1,26 @@
+concept_juveniles
+<- sc_node_class;
+<- class;
+<= nrel_type_by_competition_level: concept_hockey;
+=> nrel_main_idtf:
+   [юноши]
+   (* <- lang_ru;; *);
+   [juveniles]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Юношеские турниры и лиги проводятся на местном, национальном и международном уровнях.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Юношеский хоккей обычно делится на несколько возрастных категорий, таких как мини-хоккей, младшие (U12), средние (U14), старшие (U16) и юниоры (U18).]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+

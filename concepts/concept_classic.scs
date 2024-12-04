@@ -1,0 +1,38 @@
+concept_classic
+<- sc_node_class;
+<- class;
+=> nrel_classification_by_game_time:
+    ...
+		(*
+		-> rrel_example:
+			[60 минут]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_type_by_place:
+    ...
+		(*
+		-> rrel_example:
+			[Ледовая арена]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_main_idtf:
+   [классический]
+   (* <- lang_ru;; *);
+   [classic]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Стандартный хоккейный матч длится 90 минут и состоит из 3 периодов по 20 минут.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Между периодами предусмотрены перерывы длительностью 15 минут]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

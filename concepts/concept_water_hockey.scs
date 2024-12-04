@@ -1,0 +1,39 @@
+concept_water_hockey
+<- sc_node_class;
+<- class;
+<- concept_not_standart;
+=> nrel_classification_by_game_time:
+    ...
+		(*
+		-> rrel_example:
+			[40 минут]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_type_by_place:
+    ...
+		(*
+		-> rrel_example:
+			[Бассейн]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_main_idtf:
+   [хоккей на воде]
+   (* <- lang_ru;; *);
+   [water hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Этот необычный вид хоккея играется в бассейне или в открытых водоемах.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Игроки находятся в воде и используют специальные клюшки, чтобы управлять мячом или шайбой.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

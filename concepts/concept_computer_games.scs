@@ -1,0 +1,25 @@
+concept_computer_games
+<- sc_node_class;
+<- class;
+<- concept_hockey_games;
+=> nrel_main_idtf:
+   [компьютерные игры]
+   (* <- lang_ru;; *);
+   [computer games]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Компьютерные игры признаны полезным и развивающим досугом для человека.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Компьютерные игры позволяют человеку заниматься тем, чем заниматься в реальной жизни не представляется возможным.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

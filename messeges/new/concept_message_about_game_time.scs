@@ -1,0 +1,29 @@
+concept_message_about_game_time
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Сообщение о длительности игры]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [nrel_classification_by_game_time];
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+       [Опр. (Сообщение о длительности игры)]
+       (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+           [Сообщение о длительности игры - это сообщение о длительности игры какого-либо вида хоккея.]
+           (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_hockey
+        };;
+    *);;
+    
+concept_intent_possible_class
+-> concept_message_about_game_time;;

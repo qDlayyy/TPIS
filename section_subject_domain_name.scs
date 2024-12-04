@@ -1,0 +1,58 @@
+section_subject_domain_of_hockey
+=> nrel_main_idtf:
+	  [Раздел. Предметная область хоккей]
+  (* <- lang_ru;; *);
+	  [Section. Subject domain of hockey]
+  (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_hockey = [*
+	subject_domain_of_hockey
+<- sc_node_struct;
+	=> nrel_main_idtf:
+   [Предметная область хоккей]
+   (* <- lang_ru;; *);
+   [Subject domain of hockey]
+   (* <- lang_en;; *);
+	<- subject_domain;
+	-> rrel_maximum_studied_object_class:
+   concept_hockey;                        /*Хоккей*/
+	-> rrel_not_maximum_studied_object_class:
+   concept_amateur;                       /*Любительский*/
+   concept_beach_hockey;                  /*Пляжный хоккей*/
+   concept_bendy_hockey;                  /*Бенни-хоккей*/
+   concept_bicycle_hockey;                /*Хоккей на велосипедах*/
+   concept_classic;                       /*Классический хоккей*/
+   concept_club;                          /*Хоккейный клуб*/
+   concept_computer_games;                /*Компьютерная игра*/
+   concept_dry_hockey;                    /*Хоккей на асфальте*/
+   concept_field_hockey;                  /*Хоккей на поле*/
+   concept_friendly_matches;              /*Товарищеский матч*/
+   concept_hockey_games;                  /*Компьютерные игры по хоккею*/
+   concept_international_tournaments;     /*Международные турниры*/
+   concept_juveniles;                     /*Юноши*/
+   concept_kids;                          /*Дети*/
+   concept_men;                           /*Мужчины*/
+   concept_mini_hockey;                   /*Мини-хоккей*/
+   concept_national;                      /*Национальные турниры*/
+   concept_normal;                        /*Обычный*/
+   concept_not_standart;                  /*Нестандартный хоккей*/
+   concept_paralympic;                    /*Параолимпиада*/
+   concept_professional;                  /*Профессиональный*/
+   concept_rink;                          /*Ледовая арена*/
+   concept_rollers_hockey;                /*Хоккей на роликах*/
+   concept_semi_professional;             /*Полупрофессиональный*/
+   concept_snow_hockey;                   /*Хоккей на снегу*/
+   concept_stanley_cup;                   /*Кубок Стенли*/
+   concept_street_hockey;                 /*Уличный хоккей*/
+   concept_water_hockey;                  /*Хоккей на воде*/
+   concept_women;                         /*Женщины*/
+	-> rrel_explored_relation:
+   nrel_type_by_sex;                      /*вид_по_полу*/
+   nrel_classification_by_game_time;      /*классификация_по_времени_игры*/
+   nrel_type_by_field;                    /*вид_по_типу_поля*/
+   nrel_type_by_competition_level;        /*вид_по_уровню_соревнований*/
+   nrel_type_by_place;                    /*вид_по_месту_проведения*/
+   nrel_type_by_number_of_participants;;  /*вид_по_количеству_человек*/
+*];;
+   

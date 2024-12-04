@@ -1,0 +1,25 @@
+concept_professional
+<- sc_node_class;
+<- class;
+<= nrel_type_by_competition_level: concept_hockey;
+=> nrel_main_idtf:
+   [профессиональный]
+   (* <- lang_ru;; *);
+   [professional]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Профессиональный хоккей требует от спортсмена практически полного погружения в тяжелый тренировочный процесс.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Любой профессиональный спорт имеет комерческую основу поскольку позволяет показывать возможности спортсменов и зарабатывать на этом.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

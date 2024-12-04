@@ -1,0 +1,52 @@
+nrel_type_by_number_of_participants
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+	[вид по количеству человек*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[type by number of participants*] (* <- lang_en;; *);
+=> nrel_first_domain: 
+   { 
+      concept_hockey
+   };
+=> nrel_second_domain: 
+   {
+        concept_normal;
+        concept_not_standart;
+	concept_field_hockey
+   };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+        	    concept_hockey;
+                concept_normal;
+                concept_not_standart;
+		concept_field_hockey
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (вид по количеству человек* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [вид по количеству человек* - 6 на 6, 11 на 11 и др .]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            relation
+        };;
+  *);;

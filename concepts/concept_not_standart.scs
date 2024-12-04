@@ -1,0 +1,26 @@
+concept_not_standart
+<- sc_node_class;
+<- class;
+<= nrel_type_by_number_of_participants: concept_hockey;
+=> nrel_main_idtf:
+   [нестандартный]
+   (* <- lang_ru;; *);
+   [not standart]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Существует большое количество разновидностей хоккея.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Нестандартный хоккей, который имеет порой сильно измененные правила лишь издали напоминающие привычный всем хоккей на льду.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+

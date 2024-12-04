@@ -1,0 +1,25 @@
+concept_rink
+<- sc_node_class;
+<- class;
+<= nrel_type_by_field: concept_hockey;
+=> nrel_main_idtf:
+   [хоккей на хоккейной площадке]
+   (* <- lang_ru;; *);
+   [hockey on hockey rink]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Для поддержания ледяной поверхности на идеальном уровне используется система охлаждения, которая состоит из труб, по которым циркулирует холодный фреон.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Специальные машины, называемые "заливашки" или "ice resurfacers", используются для регулярного ухода за льдом, чтобы обеспечить его гладкость и прочность.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

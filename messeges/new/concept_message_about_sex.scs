@@ -1,0 +1,28 @@
+concept_message_about_sex
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Сообщение о половой принадлежности]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [Message_about_sex_determination];
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+       [Опр. (Сообщение о половой принадлежности)]
+       (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+           [Сообщение о половой принадлежности - это сообщение о половой принадлежности.]
+           (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_hockey
+        };;
+    *);;
+concept_intent_possible_class
+-> concept_message_about_sex;;

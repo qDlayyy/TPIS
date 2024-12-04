@@ -1,0 +1,38 @@
+concept_mini_hockey
+<- sc_node_class;
+<- class;
+=> nrel_classification_by_game_time:
+    ...
+		(*
+		-> rrel_example:
+			[35 минут]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_type_by_place:
+    ...
+		(*
+		-> rrel_example:
+			[Площадка]
+			(* <- lang_ru;; *);;
+		*);
+=> nrel_main_idtf:
+   [мини-хоккей]
+   (* <- lang_ru;; *);
+   [mini hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Мини-хоккей обычно играется на уменьшенной площадке, размер которой может варьироваться, но часто составляет 20-30 метров в длину и 10-20 метров в ширину.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Правила игры могут отличаться от хоккея на льду, например, нет офсайда и других сложных правил.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

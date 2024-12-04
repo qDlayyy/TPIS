@@ -1,0 +1,30 @@
+concept_beach_hockey
+<- sc_node_class;
+<- class;
+<- concept_not_standart;
+<- concept_wit_entity;
+
+=> nrel_classification_by_game_time: [20 минут] (* <- lang_ru;; *);
+=> nrel_type_by_place: [Пляж] (* <- lang_ru;; *);
+
+=> nrel_main_idtf:
+   [пляжный хоккей]
+   (* <- lang_ru;; *);
+   [beach hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Игра проводится на пляже и сочетает в себе элементы футбола и хоккея.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[У игроков есть возможность играть босиком, а правила немного адаптированы для песчаной площадки.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

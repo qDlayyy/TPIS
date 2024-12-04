@@ -1,0 +1,26 @@
+concept_kids
+<- sc_node_class;
+<- class;
+<= nrel_type_by_competition_level: concept_hockey;
+=> nrel_main_idtf:
+   [дети]
+   (* <- lang_ru;; *);
+   [дети]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Детские хоккейные команды в меньшей степени выступают на турнирах, отдавая предпочтение закреплению базовых знаний среди детей.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Детский хоккей начинается от 4 лет, когда ребенка только обучают катанию на коньках и правильному хвату клюшки.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+

@@ -1,0 +1,25 @@
+concept_semi_professional
+<- sc_node_class;
+<- class;
+<= nrel_type_by_competition_level: concept_hockey;
+=> nrel_main_idtf:
+   [полупрофессиональный]
+   (* <- lang_ru;; *);
+   [semi-profeccional]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Полупрофессиональные хоккейные лиги существуют во многих странах, включая Северную Америку и Европу.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[В одной команде могут играть как бывшие профессионалы, так и талантливые молодые игроки, которые еще не достигли уровня профессионалов, что создает разнообразный и интересный состав команд.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

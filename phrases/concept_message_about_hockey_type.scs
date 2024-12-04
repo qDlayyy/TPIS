@@ -1,0 +1,39 @@
+concept_message_about_hockey_type 
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о видах сущностей]
+	    (* <- lang_ru;; *);
+	[message about entity division]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_hockey_type];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о видах хоккея)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about hockey type)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сообщение о видах хоккея - сообщение о видах хоккея.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Message about hockey type is a message about hockey types.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+
+  concept_intent_possible_class
+  -> concept_message_about_hockey_type;;

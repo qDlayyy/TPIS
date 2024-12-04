@@ -1,0 +1,25 @@
+concept_friendly_matches
+<- sc_node_class;
+<- class;
+<- concept_national;
+=> nrel_main_idtf:
+   [товарищеский]
+   (* <- lang_ru;; *);
+   [friend games]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Товарищеский матч — спортивное состязание, не несущее на себе турнирной нагрузки.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Товарищеский матч — спортивное состязание, проводимое не в рамках какого-либо статусного соревнования (турнира, чемпионата или кубка и т. п.).]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

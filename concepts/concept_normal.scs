@@ -1,0 +1,25 @@
+concept_normal
+<- sc_node_class;
+<- class;
+<= nrel_type_by_number_of_participants: concept_hockey;
+=> nrel_main_idtf:
+   [обычный]
+   (* <- lang_ru;; *);
+   [normal]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [В хоккее игроки постоянно меняются, что делает игру невероятно динамичной и позволяет сохранить высокий темп игры даже в ее завершении.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Стандартными правилами хоккея предусмотрено одновременное нахожжение 12 игроков на поле: по 6 с каждой стороны.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

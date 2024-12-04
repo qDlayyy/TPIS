@@ -1,0 +1,30 @@
+concept_rollers_hockey
+<- sc_node_class;
+<- class;
+<- concept_not_standart;
+<- concept_wit_entity;
+
+=> nrel_classification_by_game_time: [40 минут] (* <- lang_ru;; *);
+=> nrel_type_by_place: [Паркетная площадка] (* <- lang_ru;; *);
+
+=> nrel_main_idtf:
+   [хоккей на роликах]
+   (* <- lang_ru;; *);
+   [rollers hockey]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Этот вариант хоккея играется на роликовых коньках.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Площадка может быть как внутри, так и снаружи, и используется специальная шайба или мяч.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

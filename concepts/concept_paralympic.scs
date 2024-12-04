@@ -1,0 +1,25 @@
+concept_paralympic
+<- sc_node_class;
+<- class;
+<- concept_unusual;
+=> nrel_main_idtf:
+   [паралимпийский]
+   (* <- lang_ru;; *);
+   [paralympic]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Для людей с ограниченными возможностями проводятся разные турниры, вклчая Паралимпийские игры.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Хоккей для людей с ограниченными возможностями.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

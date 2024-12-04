@@ -1,0 +1,25 @@
+concept_stanley_cup
+<- sc_node_class;
+<- class;
+<- concept_club;
+=> nrel_main_idtf:
+   [кубок Стенли]
+   (* <- lang_ru;; *);
+   [stanley cup]
+   (* <- lang_en;;	*);
+=> nrel_note:
+   [Кубок Стенли является наиболее ценным трофеем для клубного хоккея.]
+   (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+	    ...
+		(*
+		-> rrel_example:
+			[Главный трофей Национальной хоккейной лиги (НХЛ), разыгрываемый annually с 1893 года.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+

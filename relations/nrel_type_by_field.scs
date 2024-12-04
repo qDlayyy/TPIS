@@ -1,0 +1,50 @@
+nrel_type_by_field
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+	[вид по типу поля*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[type by field*] (* <- lang_en;; *);
+=> nrel_first_domain: 
+   { 
+      concept_hockey
+   };
+=> nrel_second_domain: 
+   {
+        concept_rink;
+        concept_field_hockey
+   };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+        	    concept_hockey;
+                concept_rink;
+		concept_field_hockey
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (вид по типу поля* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [вид по типу поля* - зависимость от покрытия поля: искусственное или натуральное.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            relation
+        };;
+  *);;
